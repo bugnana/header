@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap header {
+  width: 100%;
+  height: 50px;
+  background: pink;
+}
+
+.wrap header ul {
+  line-height: 50px;
+}
+
+.wrap header ul li {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
